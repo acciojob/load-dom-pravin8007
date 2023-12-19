@@ -15,3 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
             // Append the paragraph to the body
             body.appendChild(paragraph);
 	     });
+describe('DOM content', () => {
+  it('Loads DOM content successfully', () => {
+    cy.visit(baseUrl);
+    
+    // Use should with a custom assertion to wait for the content to be present
+    cy.get('body').should(($body) => {
+      expect($body.text()).to.include('DOM load success');
+    });
+  });
+});
