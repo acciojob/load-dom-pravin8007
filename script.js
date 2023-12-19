@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var paragraph = document.createElement('p');
             
             // Set the text content of the paragraph
-            paragraph.textContent = "DOM load success";
+            paragraph.textContent = 'DOM load success';
 
             // Append the paragraph to the body
             body.appendChild(paragraph);
