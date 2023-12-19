@@ -1,11 +1,11 @@
 //your JS code here. If required.
-document.addEventListener('Load', function () {
+document.addEventListener('DOMContentLoaded', function () {
             // DOM is loaded, let's add the string
             var body = document.body;
             
             // Make sure the body is empty
             body.innerHtml = '';
-	body.textContent = 'DOM load success' ;
+	body.innerText = 'DOM load success' ;
 
             // Create a new paragraph element
             // var paragraph = document.createElement('p');
