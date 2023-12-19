@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
             // Make sure the body is empty
             body.textContent = '';
-	body.textContent = "DOM load success"
+	body.textContent = 'DOM load success' ;
 
             // Create a new paragraph element
             // var paragraph = document.createElement('p');
