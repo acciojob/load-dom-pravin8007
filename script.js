@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('Load', function () {
             // DOM is loaded, let's add the string
             var body = document.body;
             
